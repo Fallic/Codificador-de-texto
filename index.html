@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Codificador de texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="assets/Logo.png" alt="logo alura">
+        </header>
+
+        <div class="input-container">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite sua mensagem..."></textarea>
+                <p>Apenas letras minusculas e sem acento</p>
+            </div>
+
+            <div id="output">
+                <img src="assets/output-img.png" alt="logo alura">
+                <h2>Sua mensagem aparecerá aqui!</h2>
+                <span>Digite o texto que deseja criptografar</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="bnt-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="bnt-descriptografar">Descriptografar</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="icons">
+           
+            <a href="https://github.com/Fallic"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/luis-francisco-farias/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Luis Lima</h3>
+    </footer>
+    <script src="js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
